@@ -83,21 +83,21 @@ Pembaruan terakhir: %s</string>
     <string name="msg_connection_not_available">Koneksi tidak tersedia.</string>
     <string name="msg_city_not_found">Kota yang dispesifik tidak tersedia.</string>
 
-    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north">Utara</string>
     <string name="wind_direction_north_north_east">NNE</string>
     <string name="wind_direction_north_east">NE</string>
     <string name="wind_direction_east_north_east">ENE</string>
-    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east">Timur</string>
     <string name="wind_direction_east_south_east">ESE</string>
-    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_east">Tenggara</string>
     <string name="wind_direction_south_south_east">SSE</string>
-    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south">Selatan</string>
     <string name="wind_direction_south_south_west">SSW</string>
-    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_south_west">Barat daya</string>
     <string name="wind_direction_west_south_west">WSW</string>
-    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west">Barat</string>
     <string name="wind_direction_west_north_west">WNW</string>
-    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_west">Barat laut</string>
     <string name="wind_direction_north_north_west">NNW</string>
     <string name="msg_too_many_requests">Terlalu banyak permintaan. Mohon dicoba lagi.</string>
 
@@ -124,4 +124,33 @@ Kelembaban: %7$s %%
     <string name="action_weather_map">Peta Cuaca</string>
     <string name="rain">Hujan</string>
     <string name="temperature">Temperatur</string>
+    <string name="action_language">Ubah Bahasa</string>
+    <string name="clouds">Berawan</string>
+    <string name="about_data">Data ini diambil dari <a href="https://openweathermap.org/">OpenWeatherMap</a>.</string>
+    <string name="about_description">Aplikasi Cuaca.</string>
+    <string name="about_issues">Aplikasi ini dibuat untuk memenuhi tugas akhir Praktikum Pemrograman Perangkat Bergerak 2</string>
+    <string name="about_src">Aplikasi ini berfungsi untuk memberikan informasi mengenai cuaca hari ini atau yang akan datang</string>
+    <string name="about_unknown">Forecast</string>
+    <string name="beaufort_calm">Tenang</string>
+    <string name="beaufort_fresh_breeze">Angin segar</string>
+    <string name="beaufort_gale">Badai</string>
+    <string name="beaufort_gentle_breeze">Angin lembut</string>
+    <string name="beaufort_high_wind">Angin tinggi</string>
+    <string name="beaufort_hurricane">Badai besar</string>
+    <string name="beaufort_light_air">Udara ringan</string>
+    <string name="beaufort_light_breeze">Angin ringan</string>
+    <string name="beaufort_moderate_breeze">Angin sedang</string>
+    <string name="beaufort_storm">Badai</string>
+    <string name="beaufort_strong_breeze">Angin kencang</string>
+    <string name="beaufort_strong_gale">Angin kencang</string>
+    <string name="beaufort_violent_storm">Badai dahsyat</string>
+    <string name="loading_data">Memuat...</string>
+    <string name="uvi_extreme">Extrem</string>
+    <string name="uvi_high">Tinggi</string>
+    <string name="uvi_low">Rendah</string>
+    <string name="uvi_moderate">Sedang</string>
+    <string name="uvi_no_info">Tidak ada info</string>
+    <string name="uvi_very_high">Sangat tinggi</string>
+    <string name="uvindex">Index UV</string>
+    <string name="wind_speed">Kecepatan Angin</string>
 </resources>

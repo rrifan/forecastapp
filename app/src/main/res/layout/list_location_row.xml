@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:background="?android:attr/selectableItemBackground"
+    android:background="@drawable/animation_color"
     android:clickable="true"
     android:focusable="true"
     tools:layout_editor_absoluteX="8dp"
@@ -55,6 +55,7 @@
             android:layout_marginRight="8dp"
             android:text="TextView"
             android:textSize="24sp"
+
             app:layout_constraintEnd_toStartOf="@+id/rowIconTextView"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"

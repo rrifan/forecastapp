@@ -18,7 +18,9 @@
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme.Classic"
+            >
 
             <android.support.design.widget.CollapsingToolbarLayout
                 android:layout_width="match_parent"
@@ -30,8 +32,9 @@
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
-                    android:background="?attr/colorPrimary"
-                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+                    android:background="@color/colorPrimary"
+                    app:popupTheme="@style/AppTheme.Classic"
+                    app:titleTextColor="@color/text_light"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -128,7 +131,8 @@
                             android:paddingRight="42dp"
                             android:text=""
                             android:textAlignment="viewEnd"
-                            android:textSize="72sp"/>
+                            android:textSize="72sp"
+                            android:textColor="@color/text_light"/>
 
                         <TextView
                             android:id="@+id/lastUpdate"
@@ -138,7 +142,8 @@
                             android:gravity="bottom|end"
                             android:paddingRight="16dp"
                             android:textAlignment="viewEnd"
-                            android:textSize="16sp"/>
+                            android:textSize="16sp"
+                            android:textColor="@color/text_light"/>
                     </LinearLayout>
 
 
@@ -152,7 +157,8 @@
                 android:layout_height="wrap_content"
                 app:tabGravity="fill"
                 app:tabIndicatorColor="@color/tab_indicator"
-                app:tabMode="fixed"/>
+                app:tabMode="fixed"
+                app:tabTextColor="@color/text_light"/>
 
         </android.support.design.widget.AppBarLayout>
 

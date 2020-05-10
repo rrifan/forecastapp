@@ -211,14 +211,15 @@
 
     <!-- About dialogue -->
     <string name="about_unknown">Forecast</string>
-    <string name="about_description">Ini adalah Aplikasi Cuaca.</string>
-    <string name="about_src">Tidak ada apa-apa</string>
-    <string name="about_issues">ini adalah tulisan</string>
-    <string name="about_data">Data ini diambil dari <a href='https://openweathermap.org/'>OpenWeatherMap</a>, under the <a href='http://creativecommons.org/licenses/by-sa/2.0/'>Creative Commons CC-BY-SA 2.0 licence</a>.</string>
+    <string name="about_description">Forecast Application</string>
+    <string name="about_src">Forecast gives you information about today\'s and tomorrow\'s weather</string>
+    <string name="about_issues">This application made to fulfill our asignment in Praktikum Pemrograman Perangkat Bergerak 2</string>
+    <string name="about_data">This data taken from <a href="https://openweathermap.org/">OpenWeatherMap</a>.</string>
 
     <!-- Widget -->
     <string name="widget_label_extensive">Forecast Extensive</string>
     <string name="widget_label_time">Forecast Time</string>
     <string name="widget_label_simple">Forecast Simple</string>
     <string name="widget_label_classic">Forecast Classic</string>
+    <string name="action_language">Change Language</string>
 </resources>

@@ -693,17 +693,22 @@ public class MainActivity extends BaseActivity implements LocationListener {
             Intent intent = new Intent(MainActivity.this, MapActivity.class);
             startActivity(intent);
         }
-        if (id == R.id.action_search) {
-            searchCities();
-            return true;
-        }
+//        if (id == R.id.action_search) {
+//            searchCities();
+//            return true;
+//        }
         if (id == R.id.action_location) {
             getCityByLocation();
             return true;
         }
-        if (id == R.id.action_settings) {
-            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
-            startActivity(intent);
+//        if (id == R.id.action_settings) {
+//            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+//            startActivity(intent);
+//        }
+        if (id == R.id.action_language){
+            Intent languageIntent=new Intent(Settings.ACTION_LOCALE_SETTINGS);
+            startActivity(languageIntent);
+            return true;
         }
         if (id == R.id.action_about) {
             aboutDialog();
